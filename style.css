@@ -1,0 +1,14 @@
+hero {
+    position: relative;
+    height: 100vh; /* Tinggi 100% dari viewport */
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero-content {
+    position: relative; /* Supaya tetap berada di atas background */
+    z-index: 1;
+}
